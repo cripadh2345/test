@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent mavenagent
     stages {
         stage('Build') { 
             steps {
