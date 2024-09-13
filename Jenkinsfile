@@ -11,10 +11,5 @@ pipeline {
             bat 'java -jar target/spring-boot-initial-0.0.1-SNAPSHOT.jar'
             }
         }
-        stage('Deploy') { 
-            steps {
-            echo 'shashank'
-            }
-        }
     }
 }
